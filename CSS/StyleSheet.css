@@ -1,8 +1,26 @@
-h1 {
+body {
+  margin: 0;
+  display: flex;             
+  justify-content: center;   
+  align-items: center;             
+  background-color: #01113e; 
   font-family: sans-serif;
-  font-size: 72px;
-  color: transparent;
-  background: linear-gradient(45deg, #2b87c5, #ff4b2b);
-  -webkit-background-clip: text;
-  background-clip: text;
+}
+
+h1 {
+  color: #01113e;
+}
+
+p {
+  color: #01113e;
+}
+
+.container-box {
+  padding: 30px;
+  width: 90%;
+  background-color: #dbdbdd;
+  border: 2px solid #dbdbdd;  
+  border-radius: 0px;      
+  text-align: center;
+  
 }
