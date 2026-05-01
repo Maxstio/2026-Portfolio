@@ -1,26 +1,54 @@
 body {
+  background-color: #008080;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   margin: 0;
-  display: flex;             
-  justify-content: center;   
-  align-items: center;             
-  background-color: #01113e; 
-  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-h1 {
-  color: #01113e;
+/*lowerwindow*/
+.window {
+  background: #c0c0c0;
+  border: 2px solid;
+  width: 500px;
+  padding: 3px;
 }
 
-p {
-  color: #01113e;
+.title-bar {
+  background-color: #000080;
+  color: white;
+  padding: 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.container-box {
-  padding: 30px;
-  width: 90%;
-  background-color: #dbdbdd;
-  border: 2px solid #dbdbdd;  
-  border-radius: 0px;      
-  text-align: center;
-  
+.Window-Stuff {
+  padding: 20px;
+  background: white;
+  margin-top: 2px;
+  border: 2px #c0c0c0;
+  min-height: 200px;
+}
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35;
+  background: #c0c0c0;
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+}
+
+.clock {
+  margin-left: auto;
+  border: 2px inset #fff ;
+  padding: 2px 10px;
+  font-size: 13px;
 }
