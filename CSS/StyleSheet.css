@@ -7,6 +7,11 @@ body {
   justify-content: center;
 }
 
+marquee {
+  color: #000080;
+  font-style: italic;
+}
+
 /*lowerwindow*/
 .window {
   background: #c0c0c0;
