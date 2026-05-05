@@ -1,10 +1,16 @@
 body {
   background-color: #008080;
-  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-family: "Cascadia Mono", sans-serif;
   margin: 0;
   padding: 20px;
   display: flex;
   justify-content: center;
+}
+
+h1 {
+font-family: "Archivo Black", sans-serif;
+font-size: 45px;
+color: #01113e;
 }
 
 marquee {
@@ -16,7 +22,8 @@ marquee {
 .window {
   background: #c0c0c0;
   border: 2px solid;
-  width: 500px;
+  height: 550px;
+  width: 800px;
   padding: 3px;
 }
 
@@ -36,7 +43,8 @@ marquee {
   background: white;
   margin-top: 2px;
   border: 2px #c0c0c0;
-  min-height: 200px;
+  min-height: 00px;
+  height: 480px;
 }
 
 .taskbar {
